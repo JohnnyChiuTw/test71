@@ -1,4 +1,4 @@
-importScripts('https://johnnychiutw.github.io/test61/dist/ARToolkitNFT.js')
+importScripts('../dist/ARToolkitNFT.js')
 
 self.onmessage = function (e) {
   var msg = e.data
