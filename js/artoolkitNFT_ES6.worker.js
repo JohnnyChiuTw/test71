@@ -42,7 +42,7 @@ function load (msg) {
   }
 
   var onError = function (error) {
-//     console.error(error)
+    console.error(error)
   }
 
   console.debug('Loading camera at:', msg.camera_para)
