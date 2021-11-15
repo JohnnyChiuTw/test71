@@ -22,7 +22,7 @@ function start(markerUrl, video, input_width, input_height, render_update, track
   var pw, ph;
   var ox, oy;
   var worker;
-  var camera_para = './../examples/Data/camera_para.dat'
+  var camera_para = 'test71/Data/camera_para.dat'
 
   var canvas_process = document.createElement('canvas');
   var context_process = canvas_process.getContext('2d');
@@ -78,7 +78,7 @@ function start(markerUrl, video, input_width, input_height, render_update, track
 
     renderer.setSize(sw, sh);
 
-    worker = new Worker('../js/artoolkitNFT_ES6.worker.js')
+    worker = new Worker('test71/js/artoolkitNFT_ES6.worker.js')
 
     worker.postMessage({ type: "load", pw: pw, ph: ph, camera_para: camera_para, marker: markerUrl });
 
