@@ -22,7 +22,7 @@ function start(container, markerUrl, video, input_width, input_height, canvas_dr
   var pw, ph;
   var ox, oy;
   var worker;
-  var camera_para = './../examples/Data/camera_para.dat'
+  var camera_para = 'Data/camera_para.dat'
 
   var canvas_process = document.createElement('canvas');
   var context_process = canvas_process.getContext('2d');
